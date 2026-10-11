@@ -31,10 +31,14 @@ The header and footer are repeated in each HTML page: if you change them, change
 
 ## Publish
 
+The repository belongs to the `anthonygrn` GitHub account. If several accounts are logged in to the `gh` CLI, switch before pushing, then switch back:
+
 ```bash
+gh auth switch --user anthonygrn
 git add -A
 git commit -m "Describe the change"
 git push
+gh auth switch --user FeelTrading
 ```
 
 GitHub Pages republishes automatically from the `main` branch in about a minute.
