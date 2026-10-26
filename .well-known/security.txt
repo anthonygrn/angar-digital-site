@@ -1,0 +1,4 @@
+Contact: mailto:contact@angardigital.com
+Expires: 2027-10-26T00:00:00Z
+Preferred-Languages: en, fr
+Canonical: https://angardigital.com/.well-known/security.txt
